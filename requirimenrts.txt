@@ -1,0 +1,37 @@
+grava tudo o que eu instalei no arquivo txt
+venv/bin/pip3 freeze > requirements.txt 
+
+instala tudo o que eu gravei no arquivo txt
+venv/bin/pip3 install -r requirements.txt
+
+
+
+
+
+
+sudo apt-get install python3-virtualenv
+
+. venv/bin/activate
+
+pip3 install flask_sqlalchemy
+
+pip3 install flask_migrate
+
+
+pip3 install flask-script
+
+
+ python3 run.py db init
+ python3 run.py db migrate
+ python3 run.py db upgrade
+
+
+
+db
+
+# apt-get install sqlite3
+# apt-get install libsqlite3-dev
+Para visualizar cada arquivo, ou melhor, cada banco de dados, você poderá instalar o aplicativo sqlitebrowser:
+
+# apt-get install sqlitebrowser
+

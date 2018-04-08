@@ -1,0 +1,13 @@
+
+pra rodar o server precisa iniciar a virtual machine assim:
+. venv/bin/activate
+
+
+python3 run.py runserver
+
+python3 run.py db init
+python3 run.py db migrate
+python3 run.py db upgrade
+
+
+
